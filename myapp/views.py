@@ -72,4 +72,4 @@ class ProtectedView(APIView):
     permission_classes = [IsAuthenticated]  # Requires authentication
 
     def get(self, request):
-        return Response({"message": "You are authenticated!"})
+        return Response({"message": "You are authenticated!ssssssssssssssssssss"})
